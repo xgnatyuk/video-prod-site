@@ -1,0 +1,43 @@
+.about .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__pic {
+    width: 490px;
+    height: 505px;
+}
+
+.about__info {
+    width: 785px;
+    min-height: 455px;
+    background: white;
+    margin-left: -140px;
+    margin-top: 98px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+.about__text {
+    padding: 70px 202px 66px 81px;
+}
+
+.about__title {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+.about__description {
+    line-height: 27px;
+    margin-bottom: 58px;
+}
+
+.about__description p {
+    margin-bottom: 20px;
+}
+
+.about__description p:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,41 @@
+.services-page__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 65px;
+}
+
+.services-page__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-page__pic {
+    width: 460px;
+    height: 333x;
+}
+
+.services-page__info {
+    margin-left: 60px;
+    margin-top: 12px;
+}
+
+.services-page__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.03px;
+    margin-bottom: 30px;
+}
+
+.services-page__desc {
+    line-height: 27px;
+    margin-bottom: 52px;
+}
+
+.services-page__info .btn--color--white {
+    margin-left: 0;
+}
+
+.services-page .pagination {
+    margin-bottom: 88px;
+}

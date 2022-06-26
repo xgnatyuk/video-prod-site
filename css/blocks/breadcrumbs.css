@@ -1,0 +1,23 @@
+.breadcrumbs__list {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.breadcrumbs__item {
+    text-decoration: underline;
+}
+
+.breadcrumbs__item:not(:nth-child(2n+1)) {
+    text-decoration: none;
+}
+
+.breadcrumbs__link {
+    padding-right: 5px;
+    text-decoration: none;
+    color: rgba(154, 154, 154, 1);
+}
+
+.breadcrumbs__item:last-child {
+    font-weight: 700;
+}
