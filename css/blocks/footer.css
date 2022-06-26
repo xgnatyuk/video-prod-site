@@ -1,15 +1,9 @@
-.footer-main__shadow {
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 126px;
+    min-height: 126px;
+    padding: 40px;
 }
 
 .footer .menu {
