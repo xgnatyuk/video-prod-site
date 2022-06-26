@@ -28,11 +28,15 @@
     margin-bottom: 60px;
     text-decoration: none;
     filter: grayscale(100%);
-    margin-right: 45px;
+    margin-right: 50px;
 }
 
 .partenrs__item:nth-child(4n) {
     margin-right: 0;
+}
+
+.partenrs__item:nth-child(5) {
+    margin-left: 12px;
 }
 
 .partenrs__item:hover {
