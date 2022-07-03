@@ -11,11 +11,68 @@
     color: white;
 }
 
+.contacts__dropdown {
+    position: relative;
+    margin-left: 30px;
+    margin-top: -9px;
+}
+
+.contacts__dropdown:hover .contacts__dropdown-list {
+    display: block;
+    left: 0;
+    opacity: 0.8;
+}
+
+.contacts__dropdown:hover .contacts__triangle {
+    left: 0;
+    top: 10px;
+    opacity: 0.8;
+}
+
 .contacts__dropdown-title {
     font-size: 13px;
     text-decoration: underline;
     color: #FF3D00;
-    margin-top: -6px;
+}
+
+.contacts__dropdown-list {
+    position: absolute;
+    background: #FFFFFF;
+    font-size: 13px;
+    padding: 15px 19px 15px 19px;
+    min-width: 160px;
+    top: 100%;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity .5s;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.contacts__dropdown-list:before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+}
+
+.contacts__triangle {
+    position: absolute;
+    border: 10px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-bottom-color: #FFFFFF;
+    opacity: 0;
+    transition: opacity .5s;
+    margin-left: 100px;
+    left: -9999px;
+}
+
+.contacts__highlight {
+    font-weight: 700;
 }
 
 .contacts__description {

@@ -14,9 +14,27 @@ body {
     background-repeat: no-repeat;
 }
 
+.wrapper--start--bg {
+    min-height: 960px;
+    min-width: auto;
+    background: url(../../img/bottom-pic.png) center center / cover;
+    background-repeat: no-repeat;
+}
+
 .container {
     margin: 0 auto;
     width: 1149px;
+}
+
+.container--page--start {
+    min-width: 1129px;
+    min-height: 643px;
+    background: url(../../img/rec.png) center center / contain;
+    background-repeat: no-repeat;
+    margin-top: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {

@@ -42,6 +42,7 @@
 
 .pagination__link:hover {
     background: #FF5500;
+    transition: 0.5s;
 }
 
 .pagination__link--black {
@@ -50,4 +51,5 @@
 
 .pagination__link--black:hover {
     color: white;
+    transition: 0.5s;
 }

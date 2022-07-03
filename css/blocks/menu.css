@@ -25,4 +25,5 @@
 
 .menu__link:hover {
     color: #FF3D00;
+    transition: 1s;
 }

@@ -1,0 +1,32 @@
+.start-page {
+    min-width: 520px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation: start 0.7s 0.2s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes start {
+    0% {
+        opacity: 0;
+        transform: scale(0.1) rotate(30deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    70% {
+        transform: rotate(5deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.start-page .btn {
+    margin-top: 84px;
+}

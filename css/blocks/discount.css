@@ -1,0 +1,26 @@
+.discount {
+    min-height: 363px;
+    background: #373737;
+}
+
+.discount__container {
+    min-height: 363px;
+    background: url('../../img/party.png') center right -10px / contain;
+    background-repeat: no-repeat;
+}
+
+.discount__title {
+    width: 553px;
+}
+
+.discount__text {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    padding-top: 117px;
+}
+
+.discount__highlight {
+    color: rgba(255, 84, 0, 1);
+}

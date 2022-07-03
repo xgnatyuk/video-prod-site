@@ -16,6 +16,7 @@
 
 .btn-hero:hover {
     background: rgba(218, 1, 0, 1);
+    transition: 1s;
 }
 
 .btn--color--white {
@@ -31,6 +32,7 @@
     background: #FF5500;
     border: 2px solid #FF5500;
     margin-left: 24px;
+    transition: 1s;
 }
 
 .btn--size--small {
@@ -40,4 +42,5 @@
 
 .btn--size--small:hover {
     background: rgba(218, 1, 0, 1);
+    transition: 1s;
 }

@@ -19,3 +19,8 @@
 @import url('./blocks/services-page.css');
 @import url(./blocks/partners.css);
 @import url('./blocks/footer-pages.css');
+@import url('./blocks/start-page.css');
+@import url(./blocks/feedback.css);
+@import url('./blocks/discount.css');
+@import url('./blocks/review.css');
+@import url('./blocks/form.css');

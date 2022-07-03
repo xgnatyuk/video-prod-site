@@ -1,0 +1,101 @@
+.form {
+    margin-top: 52px;
+}
+
+.form__row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 26px;
+}
+
+.form__col {
+    flex: 1;
+}
+
+.form__col:not(:first-child) {
+    margin-left: 28px;
+}
+
+.form__input {
+    color: #1A1B1E;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form__input,
+.form__comment {
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 19px 30px 21px 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form__input:focus,
+.form__comment:focus {
+    border-color: rgba(204, 204, 204, 1);
+}
+
+.form__comment {
+    resize: none;
+    color: rgba(102, 102, 102, 1);
+    min-height: 235px;
+}
+
+.form__question {
+    width: 100%;
+    max-width: 366px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.form__checklist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.form__checklist-item {
+    margin-bottom: 10px;
+}
+
+.form__checkbox {
+    position: relative;
+    top: 0;
+    left: -9999px;
+}
+
+.form__checkbox:checked+.form__checklist-service {
+    background: rgba(242, 212, 201, 1);
+}
+
+.form__checklist-service {
+    display: inline-flex;
+    justify-content: center;
+    background: #E7E7E7;
+    border-radius: 35px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #303030;
+    padding: 12px 18px;
+    transition: 0.5s;
+}
+
+.form__btns {
+    margin-left: 785px;
+    margin-top: 4px;
+}
+
+.form__btns .btn--color--gray {
+    background: #8E8E8E;
+}
+
+.form .btn {
+    padding: 18px 42px;
+    margin-left: 13px;
+    border: none;
+}
