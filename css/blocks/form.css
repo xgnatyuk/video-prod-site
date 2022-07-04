@@ -83,6 +83,7 @@
     color: #303030;
     padding: 12px 18px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .form__btns {
@@ -98,4 +99,5 @@
     padding: 18px 42px;
     margin-left: 13px;
     border: none;
+    cursor: pointer;
 }

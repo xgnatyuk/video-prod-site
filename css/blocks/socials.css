@@ -18,42 +18,145 @@
     text-decoration: none;
     width: 36px;
     height: 36px;
-    background: center center no-repeat;
+    position: relative;
 }
 
-.socials__item--icon--tg .socials__link {
-    background-image: url(../../icons/tg-icon.svg);
+.socials__item--icon--tg .socials__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../icons/css_sprites.png') -122px -10px;
+    transition: .5s;
 }
 
-.socials__item--icon--tg .socials__link:hover {
-    background-image: url(../../icons/tg-icon-hover.svg);
-    transition: 1s;
+.socials__item--icon--tg .socials__link:hover:after {
+    opacity: 0;
 }
 
-.socials__item--icon--vk .socials__link {
-    background-image: url(../../icons/vk-icon.svg);
+.socials__item--icon--tg .socials__link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../icons/css_sprites.png') -122px -66px;
+    opacity: 0;
+    transition: .5s;
 }
 
-.socials__item--icon--vk .socials__link:hover {
-    background-image: url(../../icons/vk-icon-hover.svg);
-    transition: 1s;
+.socials__item--icon--tg .socials__link:hover:before {
+    opacity: 1;
 }
 
-.socials__item--icon--fb .socials__link {
-    background-image: url(../../icons/fb-icon.svg);
-    transition: 1s;
+.socials__item--icon--vk .socials__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../icons/css_sprites.png') -10px -122px;
+    transition: .5s;
 }
 
-.socials__item--icon--fb .socials__link:hover {
-    background-image: url(../../icons/fb-icon-hover.svg);
-    transition: 1s;
+.socials__item--icon--vk .socials__link:hover:after {
+    opacity: 0;
 }
 
-.socials__item--icon--ig .socials__link {
-    background-image: url(../../icons/ig-icon.svg);
+.socials__item--icon--vk .socials__link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../icons/css_sprites.png') -66px -122px;
+    opacity: 0;
+    transition: .5s;
 }
 
-.socials__item--icon--ig .socials__link:hover {
-    background-image: url(../../icons/ig-icon-hover.svg);
-    transition: 1s;
+.socials__item--icon--vk .socials__link:hover:before {
+    opacity: 1;
+}
+
+.socials__item--icon--fb .socials__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../icons/css_sprites.png') -10px -10px;
+    transition: .5s;
+}
+
+.socials__item--icon--fb .socials__link:hover:after {
+    opacity: 0;
+}
+
+.socials__item--icon--fb .socials__link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../icons/css_sprites.png') -66px -10px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.socials__item--icon--fb .socials__link:hover:before {
+    opacity: 1;
+}
+
+.socials__item--icon--ig .socials__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../icons/css_sprites.png') -10px -66px;
+    transition: .5s;
+}
+
+.socials__item--icon--ig .socials__link:hover:after {
+    opacity: 0;
+}
+
+.socials__item--icon--ig .socials__link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../icons/css_sprites.png') -66px -66px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.socials__item--icon--ig .socials__link:hover:before {
+    opacity: 1;
 }
