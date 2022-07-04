@@ -54,10 +54,9 @@
 .contacts__dropdown-list:before {
     content: "";
     display: block;
-    top: -29px;
+    top: -15px;
     position: absolute;
     left: 90px;
-    top: -16px;
     width: 0;
     height: 0;
     border-left: 20px solid transparent;
